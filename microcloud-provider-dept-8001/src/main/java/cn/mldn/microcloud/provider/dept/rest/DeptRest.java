@@ -1,6 +1,7 @@
 package cn.mldn.microcloud.provider.dept.rest;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,5 +27,9 @@ public class DeptRest {
 	@GetMapping("/dept/list")
 	public Object list() {
 		return this.deptService.list() ; 
+	}
+	@GetMapping("/dept/sessionId")
+	public Object sessionId(HttpServletRequest request) {
+		return request.getSession().getId() ; 
 	}
 }

@@ -4,6 +4,7 @@ security:
   user:
     name: mldnjava    # 用户名
     password: hello   # 密码
+  sessions: stateless # 用always是保持Session状态(有状态Session) ，用stateless 是不保留用户状态(无状态Session)
     
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml  # 定义mybatis核心配置文件的路径
