@@ -23,7 +23,7 @@ public class TestDeptRest {
 		rand = new Random().nextInt(Integer.MAX_VALUE) ; 
 	}
 	@Resource
-	private DeptRest deptRest ; 
+	private DeptRest deptRest ;  
 	@Test
 	public void testAdd() {
 		Dept vo = new Dept() ; 
