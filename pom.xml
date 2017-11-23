@@ -105,5 +105,6 @@
 	<modules>
 		<module>microcloud-api</module>
     <module>microcloud-provider-dept-8001</module>
+    <module>microcloud-consumer-resttemplate-80</module>
   </modules>
 </project>
