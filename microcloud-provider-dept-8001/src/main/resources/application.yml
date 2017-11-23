@@ -1,11 +1,3 @@
-security:
-  basic:
-    enabled: true     # 启用SpringSecurity的安全配置，默认值为true
-  user:
-    name: mldnjava    # 用户名
-    password: hello   # 密码
-  sessions: stateless # 用always是保持Session状态(有状态Session) ，用stateless 是不保留用户状态(无状态Session)
-    
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml  # 定义mybatis核心配置文件的路径
   type-aliases-package: cn.mldn.microcloud.vo       # 定义别名出现的开发包

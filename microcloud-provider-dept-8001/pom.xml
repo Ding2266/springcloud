@@ -17,6 +17,10 @@
 	<dependencies>
 		<dependency>
 			<groupId>cn.mldn</groupId>
+			<artifactId>microcloud-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>cn.mldn</groupId>
 			<artifactId>microcloud-api</artifactId>
 		</dependency>
 		<dependency>

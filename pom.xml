@@ -24,6 +24,11 @@
 		<dependencies>
 			<dependency>
 				<groupId>cn.mldn</groupId>
+				<artifactId>microcloud-security</artifactId>
+				<version>${microcloud.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.mldn</groupId>
 				<artifactId>microcloud-api</artifactId>
 				<version>${microcloud.version}</version>
 			</dependency>
@@ -106,5 +111,6 @@
 		<module>microcloud-api</module>
     <module>microcloud-provider-dept-8001</module>
     <module>microcloud-consumer-resttemplate-80</module>
+    <module>microcloud-security</module>
   </modules>
 </project>
